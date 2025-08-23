@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { useSession, signIn, signOut } from "next-auth/react"
+
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -25,12 +27,12 @@ const Navbar = () => {
             </Link>
           </div>
 
-          <Link
-            href="/login"
+          <button
+            onClick={() => signIn()}
             className="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-lg"
           >
             Login
-          </Link>
+          </button>
 
           {/* Mobile Button */}
           <button className="md:hidden" onClick={() => setOpen(!open)}>
