@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "description": "High performance laptop for work and gaming.",
+    "price": 1200,
+    "image": "https://i.ibb.co/FL4QD9Nw/Pngtree-modern-laptop-computer-with-screen-21059292.png"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "description": "Latest smartphone with 5G connectivity.",
+    "price": 800,
+    "image": "https://i.ibb.co/JjLchF3V/Pngtree-modern-smartphone-with-large-screen-21183194.png"
+  },
+  {
+    "id": 3,
+    "name": "Headphones",
+    "description": "Noise-cancelling over-ear headphones.",
+    "price": 200,
+    "image": "https://i.ibb.co/7xSnj5Kb/vecteezy-headphone-audio-3d-concept-45051174.png"
+  },
+  {
+    "id": 4,
+    "name": "Watch",
+    "description": "Smartwatch with multiple features.",
+    "price": 150,
+    "image": "https://i.ibb.co/GvC7XznB/pngwing-com.png"
+  },
+  {
+    "id": 5,
+    "name": "Camera",
+    "description": "DSLR camera for photography lovers.",
+    "price": 500,
+    "image": "https://i.ibb.co/67xn6Bfv/vecteezy-plain-black-dslr-camera-14527495.png"
+  },
+  {
+    "id": 6,
+    "name": "Backpack",
+    "description": "Durable backpack for everyday use.",
+    "price": 80,
+    "image": "https://i.ibb.co/pBb4S00n/vecteezy-school-backpack-cutout-23522766.png"
+  },
+  {
+    "id": 7,
+    "name": "Tablet",
+    "description": "10-inch tablet for work and entertainment.",
+    "price": 350,
+    "image": "https://i.ibb.co.com/gbD0S51x/pngwing-com-1.png"
+  },
+  {
+    "id": 8,
+    "name": "Gaming Console",
+    "description": "Next-gen gaming console with 4K support.",
+    "price": 500,
+    "image": "https://i.ibb.co.com/Y7tTSjV3/pngwing-com-2.png"
+  },
+  {
+    "id": 9,
+    "name": "Bluetooth Speaker",
+    "description": "Portable bluetooth speaker with deep bass.",
+    "price": 120,
+    "image": "https://i.ibb.co.com/RpHbVhNp/pngwing-com-3.png"
+  },
+  {
+    "id": 10,
+    "name": "Fitness Tracker",
+    "description": "Track your daily activity and health metrics.",
+    "price": 90,
+    "image": "https://i.ibb.co.com/M5ZqVrRV/pngwing-com-4.png"
+  },
+  {
+    "id": 11,
+    "name": "Wireless Mouse",
+    "description": "Ergonomic wireless mouse for daily use.",
+    "price": 25,
+    "image": "https://i.ibb.co.com/nNB0Tvbc/pngwing-com-5.png"
+  },
+  {
+    "id": 12,
+    "name": "Keyboard",
+    "description": "Mechanical keyboard with RGB backlight.",
+    "price": 70,
+    "image": "https://i.ibb.co.com/LXhc2PPL/pngwing-com-6.png"
+  }
+]
