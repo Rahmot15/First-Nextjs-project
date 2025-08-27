@@ -9,6 +9,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   const { data: session } = useSession();
   const pathname = usePathname();
+
   const links = [
     { name: "Home", href: "/" },
     { name: "Products", href: "/products" },
