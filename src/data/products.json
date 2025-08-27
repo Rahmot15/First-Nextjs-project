@@ -82,12 +82,5 @@
     "description": "Mechanical keyboard with RGB backlight.",
     "price": 70,
     "image": "https://i.ibb.co.com/LXhc2PPL/pngwing-com-6.png"
-  },
-  {
-    "id": 13,
-    "name": "aSDf",
-    "description": "asdf",
-    "price": 423,
-    "image": "http://localhost:3000/dashboard/add-product"
   }
 ]
