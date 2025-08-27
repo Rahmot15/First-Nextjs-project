@@ -2,11 +2,11 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { useSession, signIn, signOut } from "next-auth/react"
-
+import { signIn, signOut, useSession } from "next-auth/react";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const { data: session } = useSession();
 
   return (
     <nav className="bg-gray-800 text-white">
@@ -25,14 +25,27 @@ const Navbar = () => {
             <Link href="/products" className="hover:text-gray-300">
               Products
             </Link>
+            <Link href="/dashboard/add-product" className="hover:text-gray-300">
+              Add Product
+            </Link>
           </div>
 
-          <button
-            onClick={() => signIn()}
-            className="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-lg"
-          >
-            Login
-          </button>
+          {/* Login / Sign Out */}
+          {session ? (
+            <button
+              onClick={() => signOut()}
+              className="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-lg"
+            >
+              Sign Out
+            </button>
+          ) : (
+            <button
+              onClick={() => signIn()}
+              className="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-lg"
+            >
+              Login
+            </button>
+          )}
 
           {/* Mobile Button */}
           <button className="md:hidden" onClick={() => setOpen(!open)}>
@@ -50,8 +63,11 @@ const Navbar = () => {
           <Link href="/products" className="block hover:text-gray-300">
             Products
           </Link>
-          <Link href="/login" className="block hover:text-gray-300">
-            Login
+          <Link
+            href="/dashboard/add-product"
+            className="block hover:text-gray-300"
+          >
+            Add Product
           </Link>
         </div>
       )}
